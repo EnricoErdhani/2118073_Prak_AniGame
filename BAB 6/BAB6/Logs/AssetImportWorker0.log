@@ -1,0 +1,231 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.48f1 (b805b124c6b7) revision 12060081'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Util\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/.Kuliah/Semester 6/Animasi dan Game/Praktikum/Tugas/BAB 6/BAB6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+17495
+Successfully changed project path to: D:/.Kuliah/Semester 6/Animasi dan Game/Praktikum/Tugas/BAB 6/BAB6
+D:/.Kuliah/Semester 6/Animasi dan Game/Praktikum/Tugas/BAB 6/BAB6
+Using Asset Import Pipeline V2.
+Player connection [5896] Host "[IP] 192.168.18.215 [Port] 3221442720 [Flags] 2 [Guid] 1091592810 [EditorId] 1091592810 [Version] 1048832 [Id] WindowsEditor(7,VoschE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5896] Host "[IP] 192.168.18.215 [Port] 3221442720 [Flags] 2 [Guid] 1091592810 [EditorId] 1091592810 [Version] 1048832 [Id] WindowsEditor(7,VoschE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 49.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1 (b805b124c6b7)
+[Subsystems] Discovering subsystems at path D:/Util/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/.Kuliah/Semester 6/Animasi dan Game/Praktikum/Tugas/BAB 6/BAB6/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'D:/Util/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Util/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Util/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Util/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000655 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (517ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (398ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 3.348300 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.870400 ms  DeleteObjects: 0.214500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Treasure Hunters/Captain Clown Nose
+  artifactKey: Guid(114c40de4aa8753489444db73a56e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters/Captain Clown Nose using Guid(114c40de4aa8753489444db73a56e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52873c5d494f81f74df0c73d1eed11ee') in 0.013682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.948967 seconds.
+  path: Assets/Treasure Hunters/Captain Clown Nose/Aseprite
+  artifactKey: Guid(b24751ce3e250724190652d1c43c39e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters/Captain Clown Nose/Aseprite using Guid(b24751ce3e250724190652d1c43c39e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac2d965a6e40c34856a7bf4baad5d38') in 0.010931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.134841 seconds.
+  path: Assets/Treasure Hunters/Captain Clown Nose/Aseprite/Captain Clown Nose.aseprite
+  artifactKey: Guid(b1ec9194ba00bf9448f070721dbeeb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters/Captain Clown Nose/Aseprite/Captain Clown Nose.aseprite using Guid(b1ec9194ba00bf9448f070721dbeeb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e9bc4cf6e448aaf86d68c7a10edfc9') in 0.026190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.827103 seconds.
+  path: Assets/Treasure Hunters/Wood and Paper UI
+  artifactKey: Guid(4606d128f31723f4ba228295899c1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters/Wood and Paper UI using Guid(4606d128f31723f4ba228295899c1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f0c4eb84dcf06b7f4d1dee15ef5393') in 0.008960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.510263 seconds.
+  path: Assets/Treasure Hunters/Captain Clown Nose/Sprites
+  artifactKey: Guid(4eb4f2d6f84238849a7354f6c39423ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters/Captain Clown Nose/Sprites using Guid(4eb4f2d6f84238849a7354f6c39423ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5784da860539be7375d062bf36cacf5c') in 0.007782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.975138 seconds.
+  path: Assets/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles
+  artifactKey: Guid(df56384bf7849d44b840208620c7415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters/Captain Clown Nose/Sprites/Dust Particles using Guid(df56384bf7849d44b840208620c7415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7c886557cfb755414acc6717a5eecb') in 0.008419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.307887 seconds.
+  path: Assets/__MACOSX/Treasure Hunters
+  artifactKey: Guid(82b6a8bb90b01d249b2c6b7eb4d48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__MACOSX/Treasure Hunters using Guid(82b6a8bb90b01d249b2c6b7eb4d48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76a62af317a3b0e0d82f09402cc36b') in 0.007309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.229937 seconds.
+  path: Assets/__MACOSX/Treasure Hunters/Captain Clown Nose
+  artifactKey: Guid(e57802d10781fe546aa9c9fb9b5d607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__MACOSX/Treasure Hunters/Captain Clown Nose using Guid(e57802d10781fe546aa9c9fb9b5d607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1301b32da5737d0b1e6328527a013abd') in 0.002146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.852893 seconds.
+  path: Assets/__MACOSX/Treasure Hunters/Wood and Paper UI/Aseprite
+  artifactKey: Guid(14a54310b97c59445b1f34ff632d1686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/__MACOSX/Treasure Hunters/Wood and Paper UI/Aseprite using Guid(14a54310b97c59445b1f34ff632d1686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5252ae81371c07902bf3846dda2f6636') in 0.001952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.421881 seconds.
+  path: Assets/Treasure Hunters.zip
+  artifactKey: Guid(b58b6966c9417cc40892ecab0dd2d3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Hunters.zip using Guid(b58b6966c9417cc40892ecab0dd2d3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30e51c791ad23c6eb62e78ce88092d') in 0.005710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 313.304513 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background
+  artifactKey: Guid(6adbfbab162026f4cb829740e1e90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background using Guid(6adbfbab162026f4cb829740e1e90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e708f3ea5775d4cf8d70ad81a3f72bca') in 0.007594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.231461 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background1.png
+  artifactKey: Guid(9b45b88c36c56554ead974cff48f98bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background1.png using Guid(9b45b88c36c56554ead974cff48f98bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de7fc881912c9bdc51fd3c8888eaacd') in 0.069896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background4.png
+  artifactKey: Guid(0b211dc3d14c1ba459b21a44e5038f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background4.png using Guid(0b211dc3d14c1ba459b21a44e5038f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e02527aa2c839b636dd7e5cfdb6ed5') in 0.012360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background3.png
+  artifactKey: Guid(cd139cad4817e7144a2c0c2bb7cf8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background3.png using Guid(cd139cad4817e7144a2c0c2bb7cf8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfb8f42c1763e8022bc5950e6496bb4') in 0.012067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background2.png
+  artifactKey: Guid(3d7882fa7165d824d9173e4397f23c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background2.png using Guid(3d7882fa7165d824d9173e4397f23c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edca660d94d0f142f58f7b2af895816') in 0.013401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background5.png
+  artifactKey: Guid(0fbbe850674cd2342a0debf3a96b5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background5.png using Guid(0fbbe850674cd2342a0debf3a96b5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbba5e27d56a7eed4bf8db54ac637e1e') in 0.014919 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
