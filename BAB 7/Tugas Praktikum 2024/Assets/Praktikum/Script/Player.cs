@@ -5,13 +5,14 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
      Rigidbody2D rb;
+     public Animator animator;
 
   [SerializeField] Transform groundcheckCollider;
   [SerializeField] LayerMask groundLayer;
 
   const float groundCheckRadius = 0.2f; // +
   [SerializeField] float speed = 1;
-  [SerializeField] float jumpPower = 1000;
+  [SerializeField] float jumpPower = 100;
   
   float horizontalValue;
 
@@ -22,13 +23,17 @@ public class Player : MonoBehaviour
   private void Awake()
   {
     rb = GetComponent<Rigidbody2D>();
+    animator = GetComponent<Animator>();
   }
 
   void Update ()
   {
     horizontalValue = Input.GetAxisRaw("Horizontal");
     if (Input.GetButtonDown("Jump"))
-    jump = true;
+    {
+      animator.SetBool("Jumping", true);
+      jump = true;
+    }
     else if (Input.GetButtonUp("Jump"))
     jump = false;
   }
@@ -37,6 +42,8 @@ public class Player : MonoBehaviour
   {
   GroundCheck();
   Move(horizontalValue, jump);
+  animator.SetFloat("Blend", Mathf.Abs(rb.velocity.x));
+  animator.SetFloat("Blend Jump", rb.velocity.y);
   }
 
   void GroundCheck()
@@ -44,7 +51,10 @@ public class Player : MonoBehaviour
   isGrounded = false;
   Collider2D[] colliders = Physics2D.OverlapCircleAll(groundcheckCollider.position, groundCheckRadius, groundLayer);
   if (colliders.Length > 0)
+  {
   isGrounded = true;
+  }
+  animator.SetBool("Jumping", !isGrounded);
   }
 
   void Move(float dir, bool jumpflag)
@@ -63,14 +73,14 @@ public class Player : MonoBehaviour
     if (facingRight && dir < 0)
     {
       // ukuran player
-      transform.localScale = new Vector3(2, 2, 1);
+      transform.localScale = new Vector3(4, 4, 1);
       facingRight = false;
     }
 
     else if (!facingRight && dir > 0)
     {
       // ukuran player
-      transform.localScale = new Vector3(2, 2, 1);
+      transform.localScale = new Vector3(4, 4, 1);
       facingRight = true;
     }
 
