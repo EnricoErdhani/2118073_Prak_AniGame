@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 773
+  controlID: 91
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 57
+  controlID: 122
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 58
+  controlID: 45
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 59
+  controlID: 46
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,14 +363,14 @@ MonoBehaviour:
     - {fileID: -7129183198497732221, guid: 3d839859d823895499b799d64838a589, type: 2}
     - {fileID: -8521271105190344597, guid: 3d839859d823895499b799d64838a589, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1.1023762
+    - e00: 0.525379
       e01: 0
       e02: 0
-      e03: -191.91106
+      e03: 85.66037
       e10: 0
-      e11: 1.1023762
+      e11: 0.525379
       e12: 0
-      e13: 201.12843
+      e13: 283.88214
       e20: 0
       e21: 0
       e22: 1
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16782
+  m_LastSelectedObjectID: 25332
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -487,7 +487,7 @@ MonoBehaviour:
     x: 288
     y: 73
     width: 1079
-    height: 558
+    height: 618
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -527,23 +527,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Gothicvania Cemetery Artwork/Sprites/hero/hero-run
+    - Assets/Praktikum/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Gothicvania Cemetery Artwork/Sprites/hero/hero-run
+  - Assets/Praktikum/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\.Kuliah\Semester 6\Animasi dan Game\Praktikum\Tugas\BAB 7\Tugas
     Praktikum 2024
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 161}
-    m_SelectedIDs: 5c430000
-    m_LastClickedID: 17244
-    m_ExpandedIDs: 000000000c4300000e4300001043000012430000264300002843000000ca9a3b
+    scrollPos: {x: 0, y: 209}
+    m_SelectedIDs: 90430000
+    m_LastClickedID: 17296
+    m_ExpandedIDs: 000000005243000056430000584300005a4300005c43000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,7 +571,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c4300000e4300001043000012430000
+    m_ExpandedIDs: 00000000524300005443000056430000584300005a4300005c430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -694,7 +694,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 80a5ffff98a5ffff5ca6ffff62fbffffc6410000
+      m_ExpandedIDs: babaffffd4baffff9abbffff62fbffff8e410000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -754,9 +754,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.7242575, y: 2.2628362, z: -11.650651}
+    m_Target: {x: 4.2397294, y: 1.8229793, z: -17.972895}
     speed: 2
-    m_Value: {x: -4.7242575, y: 2.2628362, z: -11.650651}
+    m_Value: {x: 4.2397294, y: 1.8229793, z: -17.972895}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -807,9 +807,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.190675
+    m_Target: 8.033938
     speed: 2
-    m_Value: 6.190675
+    m_Value: 8.033938
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -945,6 +945,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 712
-    width: 496
+    width: 556
     height: 279
   m_ViewDataDictionary: {fileID: 0}
